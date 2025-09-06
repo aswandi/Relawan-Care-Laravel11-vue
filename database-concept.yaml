@@ -1,0 +1,15 @@
+Buatkan struktur mysql dengan nama tabel dan field berbahasa inggris, dengan standar laravel karena aplikasi akan dibuat pakai laravel 11 dan vite + vue. buatkan struktur database tanpa redundant, pastikan Normalisasi Database yang Benar
+
+
+
+aplikasi web dan mobile bernama MONEV RELAWAN
+, aplikasi web berupa dashboard untuk monitoring kerja relawan dan aplikasi android untuk digunakan oleh relawan input data berupa foto lapangan , data masyarakat dan titik gps
+
+Gambaran
+Ada data relawan
+Ada data wilayah (daerah administrasi) berupa kabupaten, kecamatan dan desa dan ini dibuat dalam 1 tabel saja.
+Ada data masyarakat yang akan menerima bantuan, data berupa KK, NIK, NAMA, ALAMAT, NOMOR HP. RT RW, KELURAHAN, KECAMATAN, KABUPATEN, USIA DAN JENIS KELAMIN
+Ada data jenis bantuan, buatkan sampel data misalnya kelender, baju, beras, dan uang tunai, dan khusus uang tunai bisa di input nominalnya
+Ada data pekerjaan relawan dan berupa siapa saja yang sudah dikunjungi, beserta data foto, foto bisa lebih dari 1 dan lokasi gps, dan keterangan bantuan apa saja yang diberikan
+Bisa dibuat beberapa sesi bantuan, misalnya sesi 1, ada informasi pada sesi ini bantuan apa saja yang disediakan.
+Aplikasi web ini nantinya harus login dan cukup 1  level users saja, nanti ada juga login dari aplikasi mobile yang login dari tabel relawan, pakai nomor hp dan password 5 digit angka semua.

@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "allow": [
+      "*",
+      "Read(/C:\\Users/**)",
+      "Bash(echo $USERPROFILE)",
+      "Read(/C:\\Users\\aswan\\.claude/**)",
+      "Bash(dir:*)",
+      "Bash(ls:*)",
+      "Read(/C:\\Users\\aswan\\.claude\\config/**)",
+      "Read(/C:\\Users\\aswan\\.claude/**)",
+      "Bash(composer create-project:*)",
+      "Bash(php:*)",
+      "Bash(move CLAUDE.md CLAUDE_backup.md)",
+      "Bash(move database_structure.sql database_structure_backup.sql)",
+      "Bash(move database-concept.yaml database-concept_backup.yaml)",
+      "Bash(mv:*)",
+      "Bash(cp:*)",
+      "Bash(rm:*)",
+      "Bash(npm install)",
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)",
+      "Bash(mysql:*)",
+      "Bash(composer:*)",
+      "Bash(mkdir:*)",
+      "Bash(wc:*)",
+      "Bash(curl:*)",
+      "Bash(flutter create:*)",
+      "Bash(keytool:*)",
+      "Bash(chmod:*)",
+      "Bash(flutter:*)",
+      "Bash(echo $PATH)"
+    ],
+    "deny": [],
+    "ask": [],
+    "additionalDirectories": [
+      "C:\\laragon8\\www"
+    ]
+  }
+}
